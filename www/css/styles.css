@@ -1,0 +1,212 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+.cover-heading {
+  font-family: 'Fredericka the Great', cursive;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.navbar{    
+  padding: 2rem!important;
+  background: linear-gradient(to left, #ab68ca, #de67a3);
+  border: none!important;
+}
+.navbar-inner {
+  color: white!important;
+}
+.navbar .center {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 24px;
+}
+
+i.icon-bars, i.icon-bars, i.icon-bars {  
+  width: 40px;
+  height: 40px;
+  color: #fff!important;
+}
+.navbar-inner, .toolbar-inner {
+  font-family: 'Shadows Into Light', cursive; 
+  font-size: 20px;
+  padding: 0 20px!important;
+}
+.title_ap {
+  font-family: 'Rochester', cursive;  
+}
+.jumbotron {
+  background: #ffffff!important;
+  color: #333!important;
+}
+.tabbar-labels {
+  background: #ffffff!important;
+}
+.tabbar-labels a {
+  background: #ffffff!important;
+}
+.toolbar:before {
+  background-color: #ffffff!important;
+}
+.tabbar-labels a.link, .tabbar-labels a.tab-link {
+  color: #de67a3!important;
+}
+.content-block ul li {
+  list-style: none!important;
+}
+
+/*buttons styles*/
+
+input {
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 16px;
+}
+
+::-webkit-input-placeholder .input-line:focus +::input-placeholder {
+  color: #fff;
+}
+
+.highlight {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  cursor: pointer;
+  transition: color .2s ease;
+}
+
+.highlight:hover {
+  color: rgba(255, 255, 255, 0.65);
+  transition: color .2s ease;
+}
+
+.spacing {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  height: 120px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.65)
+}
+
+.input-line:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.65);
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.ghost-round {
+  cursor: pointer;
+  background: none;
+  border: 1px solid #de67a3;
+  border-radius: 25px;
+  color: #de67a3;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 19px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2.5em;
+  margin-top: auto;
+  margin-bottom: 25px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  padding: 0px 20px;
+}
+
+.ghost-round:hover {
+  background: #de67a3;
+  color: #fff;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.input-line {
+  background: none;
+  margin-bottom: 10px;
+  line-height: 2.4em;
+  color: #666666;
+  font-weight: 300;
+  letter-spacing: 0px;
+  letter-spacing: 0.02rem;
+  font-size: 19px;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #999999;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.input-fields {
+  
+  margin-top: 25px;
+}
+
+/*icon style*/
+figure {
+	margin: 5em auto;
+	width: 350px;
+	height: 150px;
+}
+
+figure.icons {
+  margin: 0px auto;
+}
+i.icon.icon-bars {
+  background-image: url(/img/bars-solid.svg);
+  width: 40px;
+  height: 40px;
+  fill: #ffffff;
+  clip-path: url(#clip-jVVHVrWMeQlc);
+  mask: url(#mask-MVgERJUXqjzP);
+}
+/*map style*/
+#map {
+  height: 400px;
+  width: 100%;
+  }
+
+::placeholder { color: #666666; }
+  
+#currencyTitle {
+  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Waiting for the Sunrise', cursive;  
+  font-size: 1.5rem;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.output{
+  font-size: 18px;
+  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-family: 'Iceland', cursive;
+}
+
+
+
+
+
+
+
+
+
+  
+
